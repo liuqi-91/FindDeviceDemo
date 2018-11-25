@@ -31,7 +31,7 @@ import butterknife.OnClick;
 import pub.devrel.easypermissions.EasyPermissions;
 
 public class MainActivity extends AppCompatActivity implements Wifip2pActionListener {
-    private final String TAG = "xiaer";
+    private final String TAG = "xiaer";//add annotation from atom,then push to github.20181125
     String[] perms = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE};
 
     public WifiP2pManager mWifiP2pManager;
